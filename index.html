@@ -12,7 +12,7 @@
     <a class="logo" href="#home">GM<span>.</span></a>
     <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Primary navigation">
-      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#gallery">Graphic Projects</a><a href="#contact" class="nav-cta">Contact Me</a>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#gallery" id="graphics-nav-link">Graphic Projects</a><a href="#contact" class="nav-cta">Contact Me</a>
     </nav>
   </header>
 
@@ -32,9 +32,9 @@
 
     <section id="services" class="section shaded"><p class="eyebrow">What I do</p><h2>Design services for your next idea.</h2><div class="service-grid"><article><b>01</b><h3>Brand Identity</h3><p>Logos, colour systems, typography, and visual guidelines that give your brand a memorable identity.</p></article><article><b>02</b><h3>Graphic Design</h3><p>Flyers, banners, posters, social media content, and print-ready marketing materials.</p></article><article><b>03</b><h3>UI/UX & Web Design</h3><p>Responsive layouts, interface concepts, visual assets, and user-focused website experiences.</p></article><article><b>04</b><h3>Digital & IT Support</h3><p>Network configuration, computer maintenance, hardware troubleshooting, and support for creative digital workflows.</p></article></div></section>
 
-    <section id="work" class="section"><p class="eyebrow">Selected work</p><h2>Projects and creative focus.</h2><div class="project-grid"><article class="project feature"><div class="project-image ldsis">LDSIS <span>Web System</span></div><div class="project-copy"><p class="tag">Academic Web Project</p><h3>Land Dispute Support Information System</h3><p>A web-based system for parcel registration, dispute management, GIS records, negotiation, agreements, notifications, and audit logging.</p><p class="tools">Python · Django · HTML · CSS · JavaScript · Leaflet · GeoJSON</p></div></article><article class="project"><div class="project-image brand">BRAND<br>IDENTITY</div><p class="tag">Graphic Design</p><h3>Brand and Marketing Design</h3><p>Logo concepts, promotional graphics, print materials, and digital campaign assets created for clients.</p></article><article class="project"><div class="project-image ui">UI / UX<br>DESIGN</div><p class="tag">Web Design</p><h3>Responsive Interface Design</h3><p>Clean, accessible layouts and visual systems that improve user experience and visual consistency.</p></article></div><p class="portfolio-note">For more graphic-design samples, please view my <a href="https://drive.google.com/drive/folders/1tkoPVtrTp7UYri0W__DX1QWI6uYaAn3v?usp=drive_link" target="_blank" rel="noopener">Google Drive portfolio</a>.</p></section>
+    <section id="work" class="section"><p class="eyebrow">Selected work</p><h2>Projects and creative focus.</h2><div class="project-grid"><article class="project feature"><div class="project-image ldsis">LDSIS <span>Web System</span></div><div class="project-copy"><p class="tag">Academic Web Project</p><h3>Land Dispute Support Information System</h3><p>A web-based system for parcel registration, dispute management, GIS records, negotiation, agreements, notifications, and audit logging.</p><p class="tools">Python · Django · HTML · CSS · JavaScript · Leaflet · GeoJSON</p></div></article><article class="project project-trigger" id="graphics-project-trigger" role="button" tabindex="0" aria-controls="gallery" aria-expanded="false"><div class="project-image brand">BRAND<br>IDENTITY</div><p class="tag">Graphic Design</p><h3>Brand and Marketing Design</h3><p>Logo concepts, promotional graphics, print materials, and digital campaign assets created for clients.</p><span class="view-projects">View Graphic Projects →</span></article><article class="project"><div class="project-image ui">UI / UX<br>DESIGN</div><p class="tag">Web Design</p><h3>Responsive Interface Design</h3><p>Clean, accessible layouts and visual systems that improve user experience and visual consistency.</p></article></div><p class="portfolio-note">For more graphic-design samples, please view my <a href="https://drive.google.com/drive/folders/1tkoPVtrTp7UYri0W__DX1QWI6uYaAn3v?usp=drive_link" target="_blank" rel="noopener">Google Drive portfolio</a>.</p></section>
 
-    <section id="gallery" class="section gallery-section">
+    <section id="gallery" class="section gallery-section" hidden>
   <p class="eyebrow">Graphic design gallery</p>
   <h2>Selected client and campaign designs.</h2>
   <p class="gallery-intro">Explore my posters, event campaigns, business advertisements, celebration designs, branding assets, and digital/UI work.</p>
@@ -78,6 +78,7 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
